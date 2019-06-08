@@ -49,3 +49,11 @@ image = images[0]
 img = api.image.download_np(image.id)
 print("Image Shape: {}".format(img.shape))
 imgplot = plt.imshow(img)
+
+imgplot = plt.imshow(img)
+image = images[0]
+img = api.image.download_np(image.id)
+
+for image in images:
+    print("Id: {:<5} Name: {:<15s} labels count: {:<5} size(bytes): {:<10} width: {:<5} height: {:<5}"
+          .format(image.id, image.name, image.labels_count, image.size, image.width, image.height))
