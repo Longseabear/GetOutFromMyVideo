@@ -13,12 +13,19 @@ public class TransmitThread implements Runnable {
     private String path;
     private String pixelSet;
     private Socket socket;
+    private String session;
 
     public TransmitThread(String path, String pixelSet) {
         this.pixelSet = pixelSet;
         this.path = path;
     }
-
+    
+    public TransmitThread(){
+    }
+    
+    public TransmitThread(String path){
+    }
+    
     @Override
     public void run() {
 
