@@ -24,12 +24,21 @@ public class ReadThread implements Runnable {
     public String path;
     private String name="";
     private Context c;
-
+    private Context CC=null;
+    private Thread tht;
+    
     public ReadThread(String name,Context c){
         this.name=name;
         this.c=c;
     }
-
+    
+    public ReadThread(String name){
+        
+    }
+    
+    public ReadThread(){
+        
+    }
     @Override
     public void run() {
         try {
