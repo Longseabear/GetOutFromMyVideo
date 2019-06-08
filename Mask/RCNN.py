@@ -1,10 +1,6 @@
 import supervisely_lib as sly
 import tensorflow as tf
 import numpy as np
-
-# PyPlot only for rendering images inside Jupyter.
-% matplotlib
-inline
 import matplotlib.pyplot as plt
 import os
 
