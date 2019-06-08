@@ -158,3 +158,8 @@ model = api.model.get_info_by_name(workspace.id, model_name)
 print("Model {!r} has been sucessfully cloned from explore: ".format(model.name))
 
 api.model.download_to_tar(workspace.id, model.name, './model.tar')
+
+images=[]
+for image in images:
+    print("Id: {:<5} Name: {:<15s} labels count: {:<5} size(bytes): {:<10} width: {:<5} height: {:<5}"
+          .format(image.id, image.name, image.labels_count, image.size, image.width, image.height))
