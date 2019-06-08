@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/nocolorborderxml">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/nocolorborderxml">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="75"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/list_imgView"
+                android:layout_marginLeft="10dp"
+                android:layout_width="80dp"
+                android:layout_height="80dp"/>
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="100dp"
+                android:id="@+id/list_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="제목"
+                android:layout_weight="60"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:textColor="#33aabb"/>
+            <TextView
+                android:layout_marginTop="40dp"
+                android:layout_marginLeft="100dp"
+                android:id="@+id/list_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="날짜"
+                android:layout_weight="40"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:fontFamily="serif"/>
+
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/list_store_btn"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="store"/>
+        <Button
+            android:id="@+id/list_delete_btn"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="delete"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/list_layout"
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+        <VideoView
+            android:id="@+id/list_videoView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</LinearLayout>

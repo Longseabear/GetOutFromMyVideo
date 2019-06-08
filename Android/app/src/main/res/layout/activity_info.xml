@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/border">
+            <ImageView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="190dp"
+                android:layout_width="220dp"
+                android:layout_height="80dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/info_title"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/nocolorborderxml">
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/member1"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginLeft="320dp"
+                    android:fontFamily="serif"
+                    android:text="Name : Min Seong Kwon"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="320dp"
+                    android:layout_marginTop="120dp"
+                    android:fontFamily="serif"
+                    android:text="Email : linkedkwon@gmail.com"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="320dp"
+                    android:layout_marginTop="140dp"
+                    android:fontFamily="serif"
+                    android:text="Tel : 010-9329-2857"/>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/nocolorborderxml">
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/member3"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginLeft="320dp"
+                    android:fontFamily="serif"
+                    android:text="Name : Hae Woong Jang"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="320dp"
+                    android:layout_marginTop="120dp"
+                    android:fontFamily="serif"
+                    android:text="Email : leap1568@gmail.com"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="320dp"
+                    android:layout_marginTop="140dp"
+                    android:fontFamily="serif"
+                    android:text="Tel : 010-4049-1568"/>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/nocolorborderxml">
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/member2"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginLeft="320dp"
+                    android:fontFamily="serif"
+                    android:text="Name : Jee Woong Chung"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="320dp"
+                    android:layout_marginTop="120dp"
+                    android:fontFamily="serif"
+                    android:text="Email : jjw920418@gmail.com"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="320dp"
+                    android:layout_marginTop="140dp"
+                    android:fontFamily="serif"
+                    android:text="Tel : 010-4713-4075"/>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/nocolorborderxml">
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/member4"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="100dp"
+                    android:layout_marginLeft="320dp"
+                    android:fontFamily="serif"
+                    android:text="Special Model"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginLeft="320dp"
+                    android:fontFamily="serif"
+                    android:text="Name : Jee Hwan Moon"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="320dp"
+                    android:layout_marginTop="140dp"
+                    android:fontFamily="serif"
+                    android:text="Email : mjh920807@gmail.com"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="320dp"
+                    android:layout_marginTop="160dp"
+                    android:fontFamily="serif"
+                    android:text="Tel : 010-3324-3925"/>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
