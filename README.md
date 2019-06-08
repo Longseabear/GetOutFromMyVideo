@@ -5,4 +5,4 @@ Video Inpainting Project
 Jang Hae Woong
 Chung Jee Woong
 Kwon Min Seong
-Shin Won Sick
+Shin Won Sik
